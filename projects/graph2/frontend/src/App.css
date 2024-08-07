@@ -1,0 +1,19 @@
+.div_main{
+  background-color: darkgrey;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100px;
+  max-height: 700px;  
+  height:100%;
+}
+
+.div_info{
+  background-color: darkgrey;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 300px;
+  max-height: 700px;  
+  height:100%;
+}

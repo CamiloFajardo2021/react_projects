@@ -1,0 +1,61 @@
+/* Container and sidebar styles */
+.container {
+    display: flex;
+    transition: margin-left 0.3s ease;
+    justify-content: flex-end;
+  }
+  
+  .w3-sidebar {
+    width: 350px;
+    display: none;
+    flex-direction: column;
+    transition: width 0.3s ease;
+    position: absolute; /* Position it absolutely */
+    right: 0; /* Align to the right */
+    background-color: lightgray;
+    height:90%;
+  }
+  
+  .w3-sidebar.open {
+    display: flex;
+  }
+  
+  .w3-sidebar.closed {
+    display: none;
+  }
+  
+  /* Button styles */
+  .w3-button {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    padding: 15px 32px; /* Some padding */
+    text-align: center; /* Centered text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Get the button to be inline-block */
+    font-size: 16px; /* Increase font size */
+    margin: 4px 2px; /* Some margin */
+    cursor: pointer; /* Pointer/hand icon */
+    border-radius: 8px; /* Rounded corners */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+    
+  }
+  
+  .w3-button:hover {
+    background-color: #45a049; /* Darker green background on hover */
+    color: black; /* Black text on hover */
+  }
+  
+  /* Specific styles for the close button */
+  .w3-bar-item.w3-button.w3-hide-large {
+    background-color: #f44336; /* Red background for close button */
+    color: white; /* White text */
+  }
+  
+  .w3-bar-item.w3-button.w3-hide-large:hover {
+    background-color: #e53935; /* Darker red background on hover */
+    color: black; /* Black text on hover */
+  }
+  
+  
+  
